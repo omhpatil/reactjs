@@ -1,0 +1,49 @@
+react-dom : for working on websites
+react-native : for working on apps
+
+*** 
+
+npx create-react-app 01reactjs : creating react project using the npm(node package exeute)
+
+| Part               | Meaning                                                                  |
+| ------------------ | ------------------------------------------------------------------------ |
+| `npx`              | Runs a package without installing it globally (just temporary use).      |
+| `create-react-app` | A tool that sets up a new React project with all files and dependencies. |
+| `01reactjs`        | The name of the folder (and project) that will be created.               |
+
+another way to create react project:
+- npm create vite@latest 01vitereact
+- then go inside the 01vitereact: cd 01vitereact
+- then run one command to get node module folder: npm install
+
+++ vitereact is little faster than the react which is using the npx ++
+
+***
+
+to start project: always use {npm run start}
+it will render to: http://localhost:3000/
+
+if run by using {npm run dev}
+it will render to: http://localhost:5173/
+
+***
+
+- React Fragments	: In React, Fragments let you group multiple elements without adding extra HTML nodes (like a <div>) to the DOM.
+- Why we use : Normally, if you return more than one element in a component, React needs them to be wrapped in a single parent.
+
+used div tag here:		used <> blank tag instead of div:	
+return (				return (
+  <div>					  <>
+    <h1>Hello</h1>			     <h1>Hello</h1>
+    <p>Welcome</p>			     <p>Welcome</p>
+  </div>				  </>
+);					);
+
+***
+
+- Things to kept in mind while coding in react: Function name should start with Capital letter and use fragements to write more components.
+- while coding inside vite file extension should be .jsx also in react you can use both .js and .jsx also
+
+***
+
+
