@@ -11,7 +11,7 @@ function App() {
   const age = 23;
 
 
-  //here we are injecting the variable inside the JSX on line no 17
+  //here we are injecting the variable inside the JSX on line no 19
 
   return (
     <>
